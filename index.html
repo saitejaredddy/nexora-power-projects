@@ -32,28 +32,36 @@
       </button>
       <nav class="main-nav" aria-label="Primary navigation">
         <a href="#about">About</a>
+        <a href="#founder">Founder</a>
         <a href="#services">Services</a>
         <a href="#projects">Projects</a>
-        <a href="#india-map">India Map</a>
+        <a href="#partners">Partners</a>
         <a href="#verticals">Future Verticals</a>
-        <a href="#global">Global</a>
-        <a href="#downloads">Downloads</a>
         <a class="nav-cta" href="#contact">Get In Touch <span aria-hidden="true">-></span></a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero section-pad">
+        <div class="hero-3d" aria-hidden="true">
+          <canvas id="electricalScene"></canvas>
+        </div>
         <div class="hero-copy reveal">
-          <span class="eyebrow">Tier-1 Preferred EPC Contractor · India</span>
-          <h1>India's Leading Solar EPC Partner</h1>
+          <span class="eyebrow">Engineering-led Solar EPC · India</span>
+          <h1>Building Power Projects With Discipline.</h1>
           <p>
-            800MW+ installed. Class-1 certified. End-to-end solar power solutions built on trust,
-            technology and on-time execution.
+            Nexora Power Projects delivers solar EPC, electrical infrastructure, I&C, O&M and
+            contractor-led execution systems for serious energy projects across India.
           </p>
+          <div class="hero-badges" aria-label="Core capabilities">
+            <span>EPC</span>
+            <span>I&C</span>
+            <span>HT/LT Works</span>
+            <span>O&M</span>
+          </div>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">Explore Projects</a>
-            <a class="btn btn-outline" href="#contact">Speak to an Expert</a>
+            <a class="btn btn-outline" href="#partners">Partner With Us</a>
           </div>
         </div>
         <div class="hero-media reveal">
@@ -70,16 +78,16 @@
       <section id="about" class="about section-pad">
         <div class="section-copy reveal">
           <span class="section-tag">About Nexora</span>
-          <h2>India's Trusted Solar Infrastructure Partner</h2>
+          <h2>Built Like An Electrical Project Company, Not A Marketing Shell.</h2>
           <p>
-            Nexora Power Projects is a leading solar EPC company delivering complete plant
-            construction services for large developers, public institutions, commercial groups, and
-            industrial energy users.
+            Nexora Power Projects is an engineering-first solar and electrical infrastructure
+            company focused on safe execution, practical site coordination, clear documentation and
+            dependable delivery.
           </p>
           <p>
-            Established in 2015 and incorporated in 2021, the company combines Class-1 electrical
-            credentials with deep execution discipline across ground mount, floating, rooftop,
-            tracker, O&M, and panel manufacturing workstreams.
+            The company supports developers, industries and project owners across ground mount
+            solar, rooftop solar, tracker systems, O&M, electrical works and contractor partnership
+            models.
           </p>
           <div class="mini-metrics">
             <span><strong>200MW</strong> O&M Portfolio</span>
@@ -87,12 +95,36 @@
           </div>
         </div>
         <div class="credential-grid reveal">
-          <article><i>✓</i><strong>Class-1 Licensed</strong><span>Electrical infrastructure certification</span></article>
-          <article><i>◇</i><strong>ISO Certified</strong><span>Quality-led operating systems</span></article>
-          <article><i>⚡</i><strong>CPRI Certified</strong><span>Validated panel manufacturing</span></article>
-          <article><i>▣</i><strong>IFC Standards</strong><span>Global EHS protocol alignment</span></article>
-          <article><i>₹</i><strong>₹300 Cr+ Turnover</strong><span>Scale-ready balance sheet</span></article>
-          <article><i>↗</i><strong>Global Delivery</strong><span>India, Bhutan, Gulf and beyond</span></article>
+          <article><i class="line-icon">01</i><strong>Engineering Review</strong><span>Electrical drawings, site coordination and execution planning</span></article>
+          <article><i class="line-icon">02</i><strong>Safety Systems</strong><span>EHS-led workforce discipline and zero-harm field culture</span></article>
+          <article><i class="line-icon">03</i><strong>Contractor Network</strong><span>Qualified civil, mechanical, electrical and O&M partners</span></article>
+          <article><i class="line-icon">04</i><strong>Documentation</strong><span>BOQ, checklists, handover records and project reporting</span></article>
+          <article><i class="line-icon">05</i><strong>Commercial Clarity</strong><span>Scope-led pricing and milestone-driven execution controls</span></article>
+          <article><i class="line-icon">06</i><strong>Scalable Delivery</strong><span>Multi-state project support for upcoming energy infrastructure</span></article>
+        </div>
+      </section>
+
+      <section id="founder" class="founder section-pad">
+        <div class="founder-card reveal">
+          <div class="founder-mark" aria-hidden="true">AS</div>
+          <div>
+            <span class="section-tag">Founder & Leadership</span>
+            <h2>Founded By Anora Suraj.</h2>
+            <p>
+              Nexora Power Projects is led with an electrical-engineering mindset: understand the
+              site, control the scope, protect people, document every stage and deliver work that
+              clients can trust after commissioning.
+            </p>
+            <div class="founder-meta">
+              <span><strong>Anora Suraj</strong> Founder, Nexora Power Projects</span>
+              <span>Solar EPC · Electrical Infrastructure · Project Execution</span>
+            </div>
+          </div>
+        </div>
+        <div class="leadership-principles reveal">
+          <article><strong>Site First</strong><span>Plans must survive real soil, weather, access, manpower and grid conditions.</span></article>
+          <article><strong>Safety Always</strong><span>No project is successful if people, equipment or compliance are compromised.</span></article>
+          <article><strong>Clear Scope</strong><span>Every contractor and client should know exactly what is included, excluded and due.</span></article>
         </div>
       </section>
 
@@ -100,7 +132,7 @@
         <div class="section-heading reveal">
           <span class="section-tag">Our Services</span>
           <h2>Complete Solar Solutions, Every Scale</h2>
-          <p>Click any service tile to view the delivery scope and ideal project fit.</p>
+          <p>Execution services designed for developers, industrial clients and qualified contractor ecosystems.</p>
         </div>
         <div class="service-grid reveal" id="serviceGrid"></div>
       </section>
@@ -117,10 +149,10 @@
           <article><span>Quality</span><strong>Best EPC Contractor Achievement</strong><p>Recognized by leading developer partners.</p></article>
         </div>
         <div class="pillar-grid reveal">
-          <article><i>⏱</i><h3>On-Time Delivery</h3><p>Large EPC packages delivered through tight planning, site-level command, and milestone discipline.</p></article>
-          <article><i>🛡</i><h3>Zero Harm Culture</h3><p>IFC-standard EHS protocols, quality labs, and safety reviews embedded into every site rhythm.</p></article>
-          <article><i>🏭</i><h3>Vertically Integrated</h3><p>Manufacturing control and certified panels reduce supply chain dependency for critical components.</p></article>
-          <article><i>💰</i><h3>Financial Strength</h3><p>₹300Cr+ turnover supports multi-state mobilization and enterprise-scale delivery commitments.</p></article>
+          <article><i class="line-icon">T</i><h3>On-Time Delivery</h3><p>Work packages are planned around access, procurement, manpower, inspection gates and commissioning milestones.</p></article>
+          <article><i class="line-icon">S</i><h3>Zero Harm Culture</h3><p>EHS discipline, toolbox talks, PPE compliance, work permits and site supervision are treated as core project controls.</p></article>
+          <article><i class="line-icon">V</i><h3>Vendor Ecosystem</h3><p>Civil, MMS, module mounting, HT/LT, earthing, manpower and O&M partners can register for upcoming work.</p></article>
+          <article><i class="line-icon">F</i><h3>Financial Discipline</h3><p>Commercial decisions are tied to scope clarity, measurement records, deliverables and payment milestones.</p></article>
         </div>
       </section>
 
@@ -153,28 +185,44 @@
         </div>
       </section>
 
-      <section id="india-map" class="presence section-pad">
-        <div class="map-panel reveal">
-          <span class="section-tag">Our India Presence</span>
-          <h2>Projects Across India</h2>
-          <div class="map-canvas" aria-label="Interactive project marker map">
-            <div class="map-shape"></div>
-            <button style="--x: 47%; --y: 68%" data-map="Kudligi, KA — 262.5MW">262.5</button>
-            <button style="--x: 44%; --y: 58%" data-map="Maharashtra — 23.75MW Tracker">23.75</button>
-            <button style="--x: 55%; --y: 43%" data-map="Jhansi, UP — 105MW">105</button>
-            <button style="--x: 49%; --y: 78%" data-map="Tamil Nadu — 45MW">45</button>
-            <button style="--x: 61%; --y: 82%" data-map="Pondicherry — 1MW">1</button>
-            <button style="--x: 70%; --y: 55%" data-map="Odisha — 1.6MW Rooftop">1.6</button>
-            <span class="map-tooltip" id="mapTooltip">Click a marker</span>
+      <section id="partners" class="partners section-pad">
+        <div class="partner-copy reveal">
+          <span class="section-tag">Contractor & Vendor Network</span>
+          <h2>Partner With Nexora For Upcoming Projects.</h2>
+          <p>
+            Nexora is building a dependable contractor ecosystem across India. We are interested in
+            qualified teams for civil works, MMS installation, module mounting, HT/LT electrical,
+            earthing, manpower, logistics, safety equipment and O&M support.
+          </p>
+          <div class="vendor-requirements">
+            <span>GST / company profile</span>
+            <span>Past project references</span>
+            <span>Safety compliance readiness</span>
+            <span>State-wise manpower availability</span>
           </div>
         </div>
-        <div id="global" class="location-panel reveal">
-          <div class="switcher" role="tablist" aria-label="Location tabs">
-            <button class="active" data-location="india" type="button">India Projects</button>
-            <button data-location="international" type="button">International Projects</button>
-          </div>
-          <div class="location-list" id="locationList"></div>
-        </div>
+        <form class="lead-form vendor-form reveal" id="vendorForm">
+          <h3>Contractor Registration</h3>
+          <label>Company Name *<input type="text" name="company" required /></label>
+          <label>Contact Person *<input type="text" name="person" required /></label>
+          <label>Phone *<input type="tel" name="phone" required /></label>
+          <label>Email<input type="email" name="email" /></label>
+          <label>
+            Work Category
+            <select name="category">
+              <option>Civil Works</option>
+              <option>MMS Installation</option>
+              <option>Module Mounting</option>
+              <option>HT/LT Electrical Works</option>
+              <option>Earthing & Cable Laying</option>
+              <option>O&M Services</option>
+              <option>Manpower Supply</option>
+              <option>Logistics / Safety Equipment</option>
+            </select>
+          </label>
+          <label>States Available<textarea name="states" rows="3" placeholder="Example: Telangana, Andhra Pradesh, Karnataka"></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Vendor Interest -></button>
+        </form>
       </section>
 
       <section id="verticals" class="verticals section-pad">
@@ -193,13 +241,13 @@
         </div>
         <div class="download-grid reveal">
           <a href="#" class="download-card" download>
-            <span>📋</span>
+            <span class="doc-icon">PDF</span>
             <strong>Company Profile</strong>
             <small>Services, team, values, global presence, projects and credentials.</small>
             <i>↓</i>
           </a>
           <a href="#" class="download-card" download>
-            <span>📊</span>
+            <span class="doc-icon">XLS</span>
             <strong>Project Portfolio & Client List</strong>
             <small>All 52+ executed projects with capacity, location, type and scope.</small>
             <i>↓</i>
@@ -219,7 +267,7 @@
           </div>
           <a class="whatsapp" href="https://wa.me/919963103060">Chat on WhatsApp</a>
         </div>
-        <form class="lead-form reveal">
+        <form class="lead-form reveal" id="contactForm">
           <h3>Send an Enquiry</h3>
           <label>Name *<input type="text" name="name" required /></label>
           <label>Phone *<input type="tel" name="phone" required /></label>
@@ -235,6 +283,7 @@
               <option>Tracker Systems</option>
               <option>Solar O&M Services</option>
               <option>Panel Manufacturing</option>
+              <option>Contractor / Vendor Partnership</option>
             </select>
           </label>
           <label>Project Details<textarea name="details" rows="5"></textarea></label>
@@ -247,13 +296,17 @@
       <div class="footer-grid">
         <div>
           <a class="logo footer-logo" href="#top"><img class="logo-image" src="assets/nexora-logo.jpg" alt="Nexora Power Projects logo" /><span><strong>Nexora</strong><small>Power Projects</small></span></a>
-          <p>India's Tier-1 Solar EPC Contractor. End-to-end solar solutions built on trust, technology and expertise.</p>
+          <p>Engineering-led solar and electrical infrastructure company focused on safe execution, contractor partnerships and reliable delivery.</p>
         </div>
         <div><h4>Services</h4><a href="#services">EPC Solutions</a><a href="#services">Floating Solar</a><a href="#services">O&M</a><a href="#services">Panel Manufacturing</a></div>
-        <div><h4>Projects</h4><a href="#projects">Ground Mount</a><a href="#projects">Rooftop</a><a href="#india-map">India Map</a><a href="#downloads">Download List</a></div>
-        <div><h4>Company</h4><a href="#about">About Us</a><a href="#why-us">Awards</a><a href="#verticals">Verticals</a><a href="#contact">Contact</a></div>
+        <div><h4>Projects</h4><a href="#projects">Ground Mount</a><a href="#projects">Rooftop</a><a href="#projects">International</a><a href="#partners">Vendor Registration</a></div>
+        <div><h4>Company</h4><a href="#about">About Us</a><a href="#founder">Founder</a><a href="#why-us">Awards</a><a href="#contact">Contact</a></div>
       </div>
-      <div class="copyright">© 2026 Nexora Power Projects Pvt Ltd. All rights reserved. | Hyderabad, Telangana, India</div>
+      <div class="legal-row">
+        <span>© 2026 Nexora Power Projects. All rights reserved.</span>
+        <span>Nexora Power Projects, the Nexora name, logo and brand assets are trademarks of their respective owner.</span>
+        <span>Website content is for business information only and does not constitute a binding technical or commercial offer.</span>
+      </div>
     </footer>
 
     <div class="modal" id="serviceModal" aria-hidden="true">
