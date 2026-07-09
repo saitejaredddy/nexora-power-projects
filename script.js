@@ -172,7 +172,7 @@ function initLeadForm() {
     const message = encodeURIComponent(
       `Nexora website enquiry\nName: ${data.get("name")}\nPhone: ${data.get("phone")}\nEmail: ${data.get("email")}\nType: ${data.get("type")}\nDetails: ${data.get("details")}`
     );
-    window.location.href = `https://wa.me/919963103060?text=${message}`;
+    window.location.href = `https://wa.me/919490428811?text=${message}`;
   });
 }
 

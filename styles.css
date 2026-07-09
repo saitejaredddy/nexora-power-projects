@@ -248,11 +248,15 @@ h1 {
   max-width: 950px;
   margin-bottom: 24px;
   color: var(--white);
-  font-size: clamp(3.2rem, 8vw, 7rem);
-  line-height: 0.94;
+  font-size: clamp(2.75rem, 6.2vw, 5.75rem);
+  line-height: 0.98;
   font-weight: 950;
   letter-spacing: 0;
   overflow-wrap: break-word;
+}
+
+.hero .eyebrow::before {
+  display: none;
 }
 
 h2 {
@@ -290,6 +294,26 @@ h3 {
   flex-wrap: wrap;
   gap: 14px;
   margin-top: 34px;
+}
+
+.capability-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.capability-chips span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid rgba(187, 247, 208, 0.58);
+  border-radius: 999px;
+  color: #047857;
+  background: #ecfdf5;
+  font-size: 0.9rem;
+  font-weight: 950;
 }
 
 .button {
@@ -380,6 +404,7 @@ h3 {
 }
 
 .identity,
+.services,
 .portfolio {
   background: var(--mist);
 }
@@ -392,6 +417,7 @@ h3 {
 }
 
 .identity-grid,
+.services-grid,
 .execution-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -401,6 +427,7 @@ h3 {
 }
 
 .identity-grid article,
+.services-grid article,
 .execution-grid article,
 .portfolio-shell,
 .lead-form {
@@ -411,11 +438,13 @@ h3 {
 }
 
 .identity-grid article,
+.services-grid article,
 .execution-grid article {
   padding: 28px;
 }
 
 .identity-grid span,
+.services-grid span,
 .execution-grid span {
   display: inline-flex;
   margin-bottom: 22px;
@@ -427,6 +456,7 @@ h3 {
 }
 
 .identity-grid p,
+.services-grid p,
 .execution-grid p,
 .portfolio-shell span,
 .site-footer p {
@@ -604,6 +634,7 @@ h3 {
   }
 
   .identity-grid,
+  .services-grid,
   .execution-grid,
   .hero-metrics {
     grid-template-columns: repeat(2, 1fr);
@@ -644,6 +675,7 @@ h3 {
 
   .hero-metrics,
   .identity-grid,
+  .services-grid,
   .execution-grid {
     grid-template-columns: 1fr;
   }
